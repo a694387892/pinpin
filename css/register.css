@@ -1,0 +1,141 @@
+.register_head {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.register_head .logo {
+    margin-top: -9px;
+}
+
+/* <!-- 注册表单 --> */
+.registerarea {
+    position: relative;
+    height: 522px;
+    border: 1px solid #dfdfdf;
+}
+
+
+.registerarea_head {
+    height: 42px;
+    background-color: #ececec;
+    line-height: 42px;
+}
+
+.registerarea_head h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 12px;
+}
+
+.registerarea_head p {
+    float: right;
+    font-size: 14px;
+    margin-right: 11px;
+    color: #333333;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 50px 299px 0;
+}
+.reg_form ul li label {
+    display: inline-block;
+    width: 100px;
+    height: 37px;
+    text-align: right;
+}
+.reg_form .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.reg_form .error,
+.reg_form .success {
+    width: 206px;
+    height: 40px;
+    margin-left: 12px;
+}
+.reg_form .error .err {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background-image: url(../images/error.png);
+}
+
+
+
+.reg_form .success .suc {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background-image: url(../images/success.png);
+}
+
+.reg_form .safe_ {
+    padding: 0 0 0 190px;
+    margin-bottom: 20px;
+}
+
+
+.reg_form .safe {
+    font-size: 12px;
+    color: #666666;
+}
+.reg_form .ruo {
+    display: inline-block;
+    line-height: 15px;
+    width: 35px;
+    height: 15px;
+    text-align: center;
+    background-color: red;
+}
+
+.reg_form .ruo,
+.reg_form .zhong,
+.reg_form .qiang {
+    color: white;
+}
+
+
+
+.reg_form .zhong {
+    display: inline-block;
+    line-height: 15px;
+    width: 35px;
+    height: 15px;
+    text-align: center;
+    background-color: green;
+}
+
+.reg_form .qiang {
+    display: inline-block;
+    line-height: 15px;
+    width: 35px;
+    height: 15px;
+    text-align: center;
+    background-color: #f79100;
+}
+
+
+.reg_form .xieyi {
+    padding-left: 100px;
+    margin-top: 40px;
+}
+
+.kuang {
+    vertical-align: middle;
+}
+.reg_form ul li .btn {
+    width: 200px;
+    height: 35px;
+    background-color: #c81623;
+}
+
+.reg_form ul li:last-child {
+    margin-top: 50px;
+    padding-left: 120px;
+}

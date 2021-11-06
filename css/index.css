@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('../fonts/icomoon.woff?tomleg') format('woff'),
+        url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.main {
+    margin-left: 210px;
+    width: 990px;
+    height: 466px;
+
+}
+
+
+.Rotary_figure {
+    float: left;
+    width: 721px;
+    height: 456px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.Rotary_figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .main-right {
+    float: right;
+    width: 250px;
+    height: 456px;
+    margin-top: 10px;
+    margin-left: 9px;
+
+    
+}
+
+.main .main-right .bulletin {
+    height: 374px;
+    border: 1px solid #e4e4e4;
+}
+
+
+.main .main-right .bulletin .bulletin-header {
+    height: 33px;
+    border-bottom: 1px dotted #e8e8e7;
+    padding: 0 15px;
+    line-height: 33px;
+}
+.main .main-right .bulletin .bulletin-header h5 {
+    float: left;
+}
+
+.main .main-right .bulletin .bulletin-header a {
+
+    float: right;
+}
+
+.main .main-right .bulletin .bulletin-header a::after {
+    content: "\e920";
+    font-family: 'icomoon';
+    margin-left: 9px;
+}
+.main .main-right .bulletin .announcement {
+    height: 130px;
+    padding-top: 5px;
+    padding-left: 14px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.main .main-right .bulletin .announcement ul li a {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main .main-right .bulletin .announcement span {
+    font-weight: 700;
+}
+
+.main .main-right .bulletin .announcement ul li {
+    height: 24px;
+    line-height: 24px;
+}
+
+.main .main-right .bulletin .menu .hang1 ul li,
+.main .main-right .bulletin .menu .hang2 ul li,
+.main .main-right .bulletin .menu .hang3 ul li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.main .main-right .bulletin .menu .hang1 ul li div,
+.main .main-right .bulletin .menu .hang2 ul li div,
+.main .main-right .bulletin .menu .hang3 ul li div {
+    width: 21px;
+    height: 26px;
+    background: url(../images/icons.png) no-repeat -17px -15px;
+    margin-top: 13px;
+    margin-left: 21px;
+}
+.main .main-right .bulletin .menu .hang1 ul li p,
+.main .main-right .bulletin .menu .hang2 ul li p,
+.main .main-right .bulletin .menu .hang3 ul li p {
+    margin-top: 7px;
+    margin-left: 19px;
+}
+
+
+
+.main .main-right .bargain {
+    width: 249px;
+    height: 75px;
+}
+.main .main-right .bargain img {
+    margin-top: 7px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* 今日推荐模块 */
+.daily_recommendation {
+    height: 164px;
+    margin-top: 11px;
+}
+
+.daily_recommendation div:first-child {
+    float: left;
+    padding: 30px 0 0 60px;
+    width: 208px;
+    height: 164px;
+    background-color: #5c5251;
+}
+
+.daily_recommendation div:nth-child(n+2) {
+    float: left;
+    width: 248px;
+    height: 164px;
+}
+
+.daily_recommendation div:nth-child(n+2) img {
+    height: 100%;
+}
+
+/* 家用电器模块 */
+
+.electrical {
+    margin-top: 33px;
+    height: 390px;
+
+}
+
+.electrical .electrical_head {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.electrical .electrical_head h3 {
+    float: left;
+    color: #c81623;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.electrical .electrical_head div {
+    float: right;
+    line-height: 30px;
+}
+.tab_list ul li {
+    float: left;
+}
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+
+.electrical .electrical_body {
+    height: 365px;
+}
+
+.electrical .electrical_body .on1 {
+
+
+    width: 210px;
+    height: 360px;
+    background-color: #f9f9f9;
+}
+
+
+.electrical .electrical_body>div {
+    float: left;
+    height: 362px;
+}
+.electrical .electrical_body .on1 ul {
+    padding-left: 12px;
+}
+.electrical .electrical_body .on1 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+
+.electrical .electrical_body .on1 img {
+
+    margin-left: 10px;
+}   
+.electrical .electrical_body .on3 .dd {
+    display: block;
+    border-bottom: 1px solid #ededed;
+}
+.electrical .electrical_body .on4 {
+
+    border-left: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+.electrical .electrical_body .on5 {
+    width: 216px;
+
+}
+.electrical .electrical_body .on5 .dd {
+    display: block;
+    border-bottom: 1px solid #ededed;
+}
+
+
+
